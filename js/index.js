@@ -37,12 +37,20 @@ const siteContent = {
   },
 };
 
-// Example: Update the img src for the logo
-let logo = document.getElementById("logo-img");
-logo.setAttribute('src', siteContent["nav"]["img-src"])
+// task 1
+
 
 document.getElementsByTagName('div');
 
 document.getElementsByClassName('text-content');
 
 document.getElementById('logo-img');
+
+// Example: Update the img src for the logo
+let logo = document.getElementById("logo-img");
+logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+const link = document.querySelectorAll('a');
+ 
+link.setAttribute = [services, product, vision, features, about, contact];
+
