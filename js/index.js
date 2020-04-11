@@ -98,3 +98,5 @@ contentsh4[5].innerHTML = 'Contact';
 contentsP[5].innerHTML = "123 Way 456 Street <br> Somewhere, USA";
 contentsP[6].innerHTML = '1 (888) 888-8888';
 contentsP[7].innerHTML = 'sales@greatidea.io';
+
+contentsP[8].innerHTML = 'Copyright Great Idea! 2018';
