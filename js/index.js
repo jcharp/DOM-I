@@ -71,8 +71,26 @@ const img1 = document.getElementById('cta-img');
 
 img1.src = 'img/header-img.png';
 
-const contentTop = document.querySelectorAll('.top-content');
+const contentsP = document.getElementsByTagName('p');
+const contentsh4 = document.getElementsByTagName('h4');
+
+contentsh4[0].innerText = 'Features';
 
 
+contentsP[0].innerHTML = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 
+contentsh4[1].innerText = 'About';
+contentsP[1].innerHTML = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+contentsh4[2].innerHTML = 'Services';
+contentsP[2].innerText = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+contentsh4[3].innerHTML = 'Products';
+contentsP[3].innerHTML = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+contentsh4[4].innerHTML = 'Vision';
+contentsP[4].innerHTML = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+const middleImg = document.getElementById('middle-img');
+middleImg.src ='img/mid-page-accent.jpg';
 
