@@ -94,3 +94,7 @@ contentsP[4].innerHTML = 'Vision content elementum magna eros, ac posuere elvit 
 const middleImg = document.getElementById('middle-img');
 middleImg.src ='img/mid-page-accent.jpg';
 
+contentsh4[5].innerHTML = 'Contact';
+contentsP[5].innerHTML = "123 Way 456 Street <br> Somewhere, USA";
+contentsP[6].innerHTML = '1 (888) 888-8888';
+contentsP[7].innerHTML = 'sales@greatidea.io';
