@@ -50,7 +50,7 @@ document.getElementById('logo-img');
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-var link = document.querySelectorAll('a');
+const link = document.querySelectorAll('a');
 
 link[0].innerHTML = 'Services';
 link[1].innerHTML = 'Products';
@@ -58,3 +58,16 @@ link[2].innerHTML = 'vision';
 link[3].innerHTML = 'Features';
 link[4].innerHTML = 'About';
 link[5].innerHTML = 'Contact';
+
+const h1Select = document.querySelector('h1');
+
+h1Select.textContent = 'DOM is Awesome';
+
+const butn = document.querySelector('button');
+
+butn.textContent = 'Get Started';
+
+const img1 = document.getElementById('cta-img');
+
+img1.src = 'img/header-img.png';
+
