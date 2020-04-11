@@ -100,3 +100,14 @@ contentsP[6].innerHTML = '1 (888) 888-8888';
 contentsP[7].innerHTML = 'sales@greatidea.io';
 
 contentsP[8].innerHTML = 'Copyright Great Idea! 2018';
+
+const navAdd = document.querySelectorAll('nav');
+
+
+link[0].style.color = 'green';
+link[1].style.color = 'green';
+link[2].style.color = 'green';
+link[3].style.color = 'green';
+link[4].style.color = 'green';
+link[5].style.color = 'green';
+
