@@ -50,7 +50,11 @@ document.getElementById('logo-img');
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-const link = document.querySelectorAll('a');
- 
-link.setAttribute = [services, product, vision, features, about, contact];
+var link = document.querySelectorAll('a');
 
+link[0].innerHTML = 'Services';
+link[1].innerHTML = 'Products';
+link[2].innerHTML = 'vision';
+link[3].innerHTML = 'Features';
+link[4].innerHTML = 'About';
+link[5].innerHTML = 'Contact';
