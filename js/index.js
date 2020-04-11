@@ -71,3 +71,8 @@ const img1 = document.getElementById('cta-img');
 
 img1.src = 'img/header-img.png';
 
+const contentTop = document.querySelectorAll('.top-content');
+
+
+
+
