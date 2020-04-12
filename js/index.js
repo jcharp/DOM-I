@@ -111,3 +111,12 @@ link[3].style.color = 'green';
 link[4].style.color = 'green';
 link[5].style.color = 'green';
 
+let newContentEnd = document.createElement('a');
+newContentEnd.textContent = "New link On End";
+let nav = document.querySelector('nav');
+
+nav.appendChild(newContentEnd);
+
+let newContentFront = document.createElement('a');
+newContentFront.textContent = "New link in Front";
+nav.prepend(newContentFront);
