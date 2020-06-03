@@ -126,3 +126,23 @@ atEnd.style.color = "red";
 atEnd.style.fontStyle ='italic';
 
 nav.append(atEnd);
+
+// stretch adding button function.  Button at footer changes color of page when clicked
+const buttonColor = document.createElement('button');
+buttonColor.classList.add('ChangeColor');
+
+const footer = document.querySelector('footer')
+
+footer.prepend(buttonColor);
+buttonColor.textContent = "Click to Change Color";
+
+const htmlWhole = document.querySelector('html');
+
+buttonColor.addEventListener('click', (change) => {
+  if(htmlWhole.style.backgroundColor !== "yellow"){
+    htmlWhole.style.backgroundColor = "yellow";
+  }
+  else {
+    htmlWhole.style.backgroundColor = "white"
+  }
+})
