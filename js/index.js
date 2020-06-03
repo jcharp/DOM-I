@@ -42,8 +42,16 @@ let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 
-// Task 1
+// Task 1. Creating selecotrs and using ID to update src path content
 
-document.getElementsByTagName('div');
+logoImg = document.getElementById("logo-img");
+ctaImg = document.getElementById("cta-img");
+middleImg = document.getElementById("middle-img");
+
+logoImg.src = "img/logo.png";
+
+ctaImg.src = "img/header-img.png";
+
+middleImg.src ="img/mid-page-accent.jpg";
 
 document.getElementsByClassName('container');
