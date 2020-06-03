@@ -74,3 +74,30 @@ h1Info.textContent = "DOM Is Awesome";
 const butonLink = document.querySelector('button');
 
 butonLink.textContent = 'Get Started';
+
+
+const contentH4 = document.getElementsByTagName('h4');
+const contentP =document.getElementsByTagName('p');
+
+contentH4[0].innerHTML = 'Features';
+contentP[0].innerHTML = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+contentH4[1].innerHTML = 'About';
+contentP[1].innerHTML = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+contentH4[2].innerHTML = 'Services';
+contentP[2].innerHTML = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+contentH4[3].innerHTML = 'Product';
+contentP[3].innerHTML = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+contentH4[4].innerHTML = 'Vision';
+contentP[4].innerHTML =  "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+contentH4[5].innerHTML = 'Contact';
+
+contentP[5].innerHTML = "123 Way 456 Street Somewhere, USA";
+contentP[6].innerHTML = "1 (888) 888-8888";
+contentP[7].innerHTML = "sales@greatidea.io";
+
+contentP[8].innerHTML = "Copyright Great Idea! 2018";
