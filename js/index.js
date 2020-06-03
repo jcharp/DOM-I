@@ -55,3 +55,22 @@ ctaImg.src = "img/header-img.png";
 middleImg.src ="img/mid-page-accent.jpg";
 
 document.getElementsByClassName('container');
+
+// Task 2.  Update HTML with JSON data
+
+const navLinks = document.querySelectorAll('a');
+
+navLinks[0].innerHTML = 'Services';
+navLinks[1].innerHTML = 'Products';
+navLinks[2].innerHTML = 'Vision';
+navLinks[3].innerHTML = 'Features';
+navLinks[4].innerHTML = 'About';
+navLinks[5].innerHTML = 'Contact';
+
+const h1Info = document.querySelector('h1');
+
+h1Info.textContent = "DOM Is Awesome";
+
+const butonLink = document.querySelector('button');
+
+butonLink.textContent = 'Get Started';
