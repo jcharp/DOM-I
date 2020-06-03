@@ -101,3 +101,28 @@ contentP[6].innerHTML = "1 (888) 888-8888";
 contentP[7].innerHTML = "sales@greatidea.io";
 
 contentP[8].innerHTML = "Copyright Great Idea! 2018";
+
+
+//Task 3 change nave to green and add items
+
+navLinks.forEach (element => {
+  element.style.color = "green";
+});
+
+
+const nav = document.querySelector('nav');
+
+const inFront = document.createElement('a');
+inFront.textContent = "Link In Front";
+inFront.style.color ="red";
+inFront.style.fontSize = '30px';
+
+
+nav.prepend(inFront);
+
+const atEnd = document.createElement('a');
+atEnd.textContent = "Link at End";
+atEnd.style.color = "red";
+atEnd.style.fontStyle ='italic';
+
+nav.append(atEnd);
