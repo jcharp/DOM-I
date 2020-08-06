@@ -104,3 +104,26 @@ mainContentP[6].textContent = "1 (888) 888-8888";
 mainContentP[7].textContent = "sales@greatidea.io";
 
 mainContentP[8].textContent =  "Copyright Great Idea! 2018";
+
+
+
+navLinks[0].style.color = 'green';
+navLinks[1].style.color = 'green';
+navLinks[2].style.color = 'green';
+navLinks[3].style.color = 'green';
+navLinks[4].style.color = 'green';
+navLinks[5].style.color = 'green';
+
+const navItem = document.querySelector('nav');
+
+let newItemFront = document.createElement('a');
+
+newItemFront.textContent = "New Link on Front";
+
+navItem.prepend(newItemFront);
+
+let newItemBack = document.createElement('a');
+
+newItemBack.textContent = "New Link on End";
+
+navItem.appendChild(newItemBack);
