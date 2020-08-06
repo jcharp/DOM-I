@@ -50,3 +50,15 @@ ctaImg = document.getElementById('cts-img');
 document.getElementsByClassName('text-content');
 
 document.getElementsByTagName('div');
+
+
+// task 2
+
+navLinks[0].innerHTML = "Services";
+navLinks[1].innerHTML = "Product";
+navLinks[2].innerHTML = "Vision";
+navLinks[3].innerHTML = "Features";
+navLinks[4].innerHTML = "About";
+navLinks[5].innerHTML = "Contact";
+
+logoImg.src = img/log.png;
