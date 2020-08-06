@@ -45,7 +45,7 @@ const navLinks = document.querySelectorAll('a');
 
 logoImg = document.getElementById('logo-img');
 
-ctaImg = document.getElementById('cts-img');
+ctaImg = document.getElementById('cta-img');
 
 document.getElementsByClassName('text-content');
 
@@ -61,4 +61,14 @@ navLinks[3].innerHTML = "Features";
 navLinks[4].innerHTML = "About";
 navLinks[5].innerHTML = "Contact";
 
-logoImg.src = img/log.png;
+
+
+const h1Selector = document.querySelector('h1');
+
+h1Selector.textContent = "DOM Is Awesome";
+
+const butn = document.querySelector('button');
+
+butn.textContent = "Get Started";
+
+ctaImg.src = "img/header-img.png";
