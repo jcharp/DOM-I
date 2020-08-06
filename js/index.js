@@ -72,3 +72,35 @@ const butn = document.querySelector('button');
 butn.textContent = "Get Started";
 
 ctaImg.src = "img/header-img.png";
+
+const mainContentP = document.getElementsByTagName('p');
+const mainContentH4 =document.getElementsByTagName('h4');
+
+mainContentH4[0].textContent = "Features";
+mainContentP[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+mainContentH4[1].textContent = "About";
+mainContentP[1].textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+mainContentH4[2].textContent = "Services";
+mainContentP[2].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+mainContentH4[3].textContent = "Product";
+mainContentP[3].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+mainContentH4[4].textContent = "Vision";
+mainContentP[4].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+const midImg = document.getElementById('middle-img');
+
+midImg.src = "img/mid-page-accent.jpg";
+
+mainContentH4[5].textContent = "Contact";
+
+mainContentP[5].textContent = "123 Way 456 Street Somewhere, USA";
+
+mainContentP[6].textContent = "1 (888) 888-8888";
+
+mainContentP[7].textContent = "sales@greatidea.io";
+
+mainContentP[8].textContent =  "Copyright Great Idea! 2018";
